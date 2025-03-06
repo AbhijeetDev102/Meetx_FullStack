@@ -40,8 +40,8 @@ const Room = () => {
             navigator('/meeting/educator');
         } else if (window.location.pathname === '/room/individual') {
             navigator('/meeting/individual');
-        }else if(window.location.pathname === '/room/bussines'){
-            navigator('/meeting/bussines');
+        }else if(window.location.pathname === '/room/business'){
+            navigator('/meeting/business');
         }
         // Add your create meeting logic here
     };

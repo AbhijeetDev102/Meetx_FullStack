@@ -1,0 +1,17 @@
+GOOGLE_APPLICATION_CREDENTIALS="/home/abhijeet/Desktop/meetx/MeetX_Backend-main/google-cloud-auth/credentials.json"
+
+
+GOOGLE_GENERATIVE_AI_API_KEY = 
+
+# PRODUCTION_CLIENT_URL = 
+
+DB_NAME = 
+DB_HOST = 
+DB_PASSWORD =
+DB_USER = 
+DB_PORT = 
+
+USER =
+
+LIVEKIT_API_KEY = 
+LIVEKIT_API_SECRET = 

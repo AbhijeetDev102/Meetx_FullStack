@@ -1,7 +1,7 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-
+require("dotenv").config();
 const { getTranscript, deleteTranscript } = require("./TranscriptController");
-const genAI = new GoogleGenerativeAI("AIzaSyBJ-9RI_Ax7sW7NXZlkYq9SFh8y-VolE1E");
+const genAI = new GoogleGenerativeAI(`${process.env.GOOGLE_GENERATIVE_AI_API_KEY}`);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 
