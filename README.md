@@ -31,13 +31,11 @@ MEETX is built using a microservices-based approach, ensuring **scalability, res
 
 ### 3. **AI & ML (NLP + Computer Vision)**  
 - **Google Speech-to-Text API** for real-time transcription.  
-- **OpenAI/Gemini** for meeting summaries and action item extraction.  
-- **TensorFlow.js** for in-browser fatigue detection.  
+- **Gemini API** for meeting summaries and action item extraction.  
+
 
 ### 4. **Cloud & Deployment**  
 - Hosted on **LiveKit Cloud** for seamless video streaming.  
-- **AWS Lambda + S3** for AI model execution and data storage.  
-- **Dockerized microservices** for easy deployment.
 - 
 ![landingpage](https://github.com/user-attachments/assets/74a518cf-4081-4c88-b547-78200919911f)
 
@@ -47,9 +45,8 @@ MEETX is built using a microservices-based approach, ensuring **scalability, res
 ## Advanced Workflow  
 1. **User joins a meeting** – WebRTC establishes a peer-to-peer connection.  
 2. **Real-time speech transcription** – Audio is processed via Google’s API.  
-3. **AI-powered insights** – NLP models analyze the transcript.  
-4. **Fatigue detection** – Computer vision assesses engagement.  
-5. **Meeting summary generated** – AI extracts key points.  
+3. **AI-powered insights** – NLP models analyze the transcript.   
+4. **Meeting summary generated** – AI extracts key points.  
 
 ![feature section](https://github.com/user-attachments/assets/d5242728-06d7-44e1-83a0-8244108ea6b2)
 
