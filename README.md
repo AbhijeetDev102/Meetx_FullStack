@@ -10,8 +10,7 @@ MEETX is an *AI-powered video-calling platform* that leverages *cutting-edge mac
 PPT : https://www.canva.com/design/DAGgTFb-Txo/m_cerJa1KTN3EtXWWIVmqQ/edit?utm_content=DAGgTFb-Txo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Key Features  
-- **AI-Powered Meeting Summaries** – Leverages Google's Speech-to-Text API and OpenAI/Gemini models to transcribe and analyze conversations in real time.  
-- **Real-Time Fatigue Detection** – Uses computer vision models to assess user engagement and alert fatigue levels.  
+- **AI-Powered Meeting Summaries** – Leverages Google's Speech-to-Text API and OpenAI/Gemini models to transcribe and analyze conversations in real time.   
 - **Multi-User Video Calling** – Built on WebRTC and Socket.IO for low-latency, high-quality video communication.  
 - **Action Item Extraction** – AI extracts key decisions and next steps from meetings automatically.  
 - **Cloud-Native Scalability** – Deploys on **LiveKit Cloud** for video streaming, ensuring minimal infrastructure overhead.  
